@@ -4,6 +4,8 @@
 Bu proje kapsamında, **MRL Eye Dataset** kullanılarak sürücülerin göz açıklık/kapalı durumlarını sınıflandıran bir **Convolutional Neural Network (CNN)** tabanlı model geliştirilmiştir.  
 Amaç, **uyku hali (drowsiness detection)** tespiti yaparak sürücü güvenliğine katkıda bulunmaktır.  
 
+🔗 **Kaggle Notebook:** [Projeyi Kaggle’da incele](https://www.kaggle.com/code/sedatakda/akbank-bootcamp-project-cnn-drowsiness-detection)  
+
 ---
 
 ## 📂 Kullanılan Veri Seti
@@ -81,6 +83,5 @@ Model, açık/kapalı göz tespitinde doğru bölgelere odaklanmaktadır.
 - Data Augmentation, modelin genelleme kapasitesini artırmıştır.
 - Keras Tuner ile yapılan hiperparametre optimizasyonu, doğruluğu **%96.55**’e çıkarmıştır.
 - Test setinde **%98 başarı** sağlanarak modelin güvenilirliği kanıtlanmıştır.
-
 
 
