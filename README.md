@@ -16,11 +16,6 @@ Amaç, **uyku hali (drowsiness detection)** tespiti yaparak sürücü güvenliğ
   - Farklı ışık koşulları, cihazlar ve yansıma seviyeleri
   - Ek anotasyonlar: cinsiyet, gözlük durumu, ışık koşulu, sensör ID
 <img width="1182" height="242" alt="image" src="https://github.com/user-attachments/assets/860c91be-f840-4536-8ecd-a10eae66f5cd" />
-<img width="1182" height="242" alt="image" src="https://github.com/user-attachments/assets/7e5a1ea2-b88a-465d-b1a9-285fe030659b" />
-<img width="1182" height="242" alt="image" src="https://github.com/user-attachments/assets/e3bf8d2d-9a48-4e24-893a-3d9570fce4cd" />
-<img width="1182" height="242" alt="image" src="https://github.com/user-attachments/assets/1ada80cf-a534-4294-8fb2-e05031b54714" />
-<img width="1182" height="242" alt="image" src="https://github.com/user-attachments/assets/0649fdd8-2c0c-4fce-bdd5-10e3f266a143" />
-
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
