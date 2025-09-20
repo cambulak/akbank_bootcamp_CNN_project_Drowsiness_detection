@@ -65,7 +65,28 @@ Keras Tuner kullanılarak aşağıdaki parametreler optimize edildi:
 ### 4. Model Değerlendirmesi
 - **Accuracy & Loss Grafikleri** (overfitting / underfitting kontrolü)  
 - **Confusion Matrix**  
-- **Classification Report**  
+- **Classification Report**
+
+<img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/d12a3638-a9fb-420e-a92f-dc3c35469f02" />
+
+
+<img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/3ae05ce0-db3e-443a-9d3a-1af930882a8d" />
+
+1. Accuracy Grafiği
+
+Eğitim (mavi) ve validasyon (turuncu) accuracy değerlerin çok yakın ilerliyor.
+
+Validasyon eğrisi eğitimden biraz daha yüksek (bu normal olabilir, dropout ve regularization etkisiyle).
+
+Overfitting yok ✅ Çünkü validasyon accuracy’si eğitim accuracy’sinden kopmamış.
+
+2. Loss Grafiği
+
+Eğitim kaybı (mavi) ve validasyon kaybı (turuncu) sürekli azalarak birbirine yakın ilerliyor.
+
+Validasyon kaybı da düzenli şekilde düşüyor.
+
+Underfitting de yok ✅ Çünkü loss yüksek kalmamış, hızlıca düşmüş.
 
 📊 **Sonuçlar:**
 - Test Accuracy: **%98**
