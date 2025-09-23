@@ -106,4 +106,20 @@ Model, açık/kapalı göz tespitinde doğru bölgelere odaklanmaktadır.
 - Keras Tuner ile yapılan hiperparametre optimizasyonu, doğruluğu **%96.55**’e çıkarmıştır.
 - Test setinde **%98 başarı** sağlanarak modelin güvenilirliği kanıtlanmıştır.
 
+Gelecek Çalışmalar
+
+Gerçek Zamanlı Sistem Entegrasyonu: Modelin mobil cihazlarda veya gömülü sistemlerde çalıştırılarak araç içi kamera sistemlerine entegre edilmesi.
+
+Yüz ve Baş Pozu Takibi: Göz kapanma tespiti ile birlikte başın öne düşmesi, esneme gibi diğer uyku belirtilerinin eklenmesi.
+
+Multi-modal Analiz: Göz hareketi dışında kalp atış hızı, EEG, direksiyon hareketleri gibi farklı biyometrik/veri kaynaklarının entegre edilmesi.
+
+Daha Geniş Veri Setleri: Farklı yaş grupları, etnik kökenler ve çeşitli sürüş koşullarını içeren daha kapsamlı veri setleriyle eğitimin güçlendirilmesi.
+
+Gerçek Trafik Senaryoları: Laboratuvar ortamı dışında gerçek araç içi testlerle modelin güvenilirliğinin sınanması.
+
+Model Optimizasyonu: Edge AI için daha hafif ve hızlı çalışan CNN/Transformer tabanlı modellerin geliştirilmesi.
+
+Alarm & Müdahale Mekanizması: Tespit edilen uyku hali durumunda sesli/ışıklı uyarı sistemlerinin otomatik tetiklenmesi.
+
 
